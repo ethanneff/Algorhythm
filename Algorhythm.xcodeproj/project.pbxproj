@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					67FFA85E1A60749F007C1F93 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = PW4Q8885U7;
 					};
 					67FFA8771A60749F007C1F93 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -386,9 +387,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Algorhythm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanneff.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.app.algorhythm;
 				PRODUCT_NAME = Algorhythm;
 			};
 			name = Debug;
@@ -397,9 +400,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Algorhythm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanneff.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.app.algorhythm;
 				PRODUCT_NAME = Algorhythm;
 			};
 			name = Release;
